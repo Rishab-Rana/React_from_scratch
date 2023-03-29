@@ -1,10 +1,10 @@
 import './App.css';
-import Counter from './Component/Counter';
-
+import Hero from './Component/heros';
 function App() {
   return (
     <div className="App">
-      <Counter />
+    <Hero name="Rishab" surname="Rana"/>
+    <Hero name="Shoorbeer Singh" surname="Rana"/>
     </div>
   );
 }
