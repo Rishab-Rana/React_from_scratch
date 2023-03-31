@@ -1,12 +1,10 @@
 import './App.css';
-import EvenHandler from './Component/evenHandler';
-import { ClassHandler } from './Component/evenHandler';
+import BindingEvent from './Component/BindingEvent';
 
 function App() {
   return (
     <div className="App">
-    <EvenHandler />
-    <ClassHandler />
+  <BindingEvent />
     </div>
   );
 }
