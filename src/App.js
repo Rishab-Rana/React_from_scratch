@@ -1,9 +1,9 @@
 import './App.css';
-import Parent from './Component/parent';
+import UserGreeting from './Component/UserGreeting';
 function App() {
   return (
     <div className="App">
-  <Parent />
+      <UserGreeting />
     </div>
   );
 }
