@@ -1,9 +1,9 @@
 import './App.css';
-import UserGreeting from './Component/UserGreeting';
+import List from './Component/list';
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <List />
     </div>
   );
 }
