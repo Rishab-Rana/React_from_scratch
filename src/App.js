@@ -1,10 +1,12 @@
 import './App.css';
-import Hero from './Component/heros';
+import EvenHandler from './Component/evenHandler';
+import { ClassHandler } from './Component/evenHandler';
+
 function App() {
   return (
     <div className="App">
-    <Hero name="Rishab" surname="Rana"/>
-    <Hero name="Shoorbeer Singh" surname="Rana"/>
+    <EvenHandler />
+    <ClassHandler />
     </div>
   );
 }
