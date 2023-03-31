@@ -1,10 +1,9 @@
 import './App.css';
-import BindingEvent from './Component/BindingEvent';
-
+import Parent from './Component/parent';
 function App() {
   return (
     <div className="App">
-  <BindingEvent />
+  <Parent />
     </div>
   );
 }
